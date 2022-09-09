@@ -62,20 +62,20 @@ for len in order:
     # print(len+1)
 ```
 Output:<br/>
-The order of activities are:
+The order of activities are:<br/>
 A4
 A6
 A8
 
 
-Explanation :
-DATA STUCTURE USED - 
-Start list: To store the start time of each activity
-End list: To store the end time of each activity
+Explanation :<br/>
+DATA STUCTURE USED - <br/>
+Start list: To store the start time of each activity<br/>
+End list: To store the end time of each activity<br/>
 
 
-The approach to my solution is simple,
-Step 01 : We iterate through the start and end lists and store the difference of ith indices into the respective ith index in the lenAct list, this list stores the usage of each given activities.
-Step 02 : The given data is assumed to be sorted by their end times, so we first select the activity with the least time.If their are multiple instances of the same activity,we select the activity which has the gretest duration ie.highest value in lenAct for its respective index
-Step 03 : In this step, we iterate the start list and select a maximum activity from the set of activities such that the end time of each of the activities is less than the start time of the activity selected in Step 02 using conditional statements.
+The approach to my solution is simple,<br/>
+Step 01 : We iterate through the start and end lists and store the difference of ith indices into the respective ith index in the lenAct list, this list stores the usage of each given activities.<br/>
+Step 02 : The given data is assumed to be sorted by their end times, so we first select the activity with the least time.If their are multiple instances of the same activity,we select the activity which has the gretest duration ie.highest value in lenAct for its respective index<br/>
+Step 03 : In this step, we iterate the start list and select a maximum activity from the set of activities such that the end time of each of the activities is less than the start time of the activity selected in Step 02 using conditional statements.<br/>
 Step 04 : Similiar to step 03, here we select maximum activities from the set of activities such that the start time of each of the selected activities is greater than or equal to the end time of activity selected in Step 02 using conditional statements.
