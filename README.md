@@ -61,7 +61,7 @@ for len in order:
         print("A"+str(len+1))
     # print(len+1)
 ```
-Output:
+Output:<br/>
 The order of activities are:
 A4
 A6
