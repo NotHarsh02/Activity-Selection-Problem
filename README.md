@@ -23,7 +23,7 @@ Index	Start	End
 Code:
 
 
-
+```
 start = [1, 2, 4, 1, 5, 8, 9, 11, 13]
 end = [3, 5, 7, 8, 9, 10, 11, 14, 16]
 lenAct = []
@@ -59,7 +59,7 @@ for len in order:
     if(len != -1):
         print("A"+str(len+1))
     # print(len+1)
-
+```
 Output:
 The order of activities are:
 A4
