@@ -7,16 +7,17 @@ This project provides a solution for Activity Selection Problem using Greedy alg
 Problem Statement:
 In this Activity Selection Problem we were given a problem and were expected to Modify the selecting criteria and suggest a logic to select the activity with maximum duration of resource usage.
 
-Index	Start	End
-1	     1	     3
-2	     2	     5
-3	     4	     7
-4	     1	     8
-5	     5	     9
-6	     8	     10
-7	     9	     11
-8	     11	     14
-9	     13	     16
+Index |Start |   End
+------|------|------
+1	  |   1	 |    3
+2	  |   2	 |    5
+3	  |  4	 |    7
+4	  |   1	 |    8
+5	  |   5	 |     9
+6	  |   8	 |    10
+7	  |   9	 |    11
+8	  |   11 |	     14
+9	  |   13 |	     16
 
 
 
